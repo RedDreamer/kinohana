@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/share?selection.family=Poppins:500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/media/logo.png">
+    <title>Kinohana</title>
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Header -->
+          <a class="navbar-brand" href="#">Kinohana</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <th><button type="button" class="btn btn-warning"onclick="window.location.href='index.html'">Home</button></th>
+              </li>
+            </ul>
+            
+          
+          </div>
+        </div>
+      </nav>
+      <img src="/media/1+1.jpg"  width="220" height="300" class="leftimg">
+      <p class ="description">In Paris, the aristocratic and intellectual Philippe is a quadriplegic millionaire who is interviewing candidates for the position of his carer, with his red-haired secretary Magalie. Out of the blue, Driss cuts the line of candidates and brings a document from the Social Security and asks Phillipe to sign it to prove that he is seeking a job position so he can receive his unemployment benefit. Philippe challenges Driss, offering him a trial period of one month to gain experience helping him. Then Driss can decide whether he would like to stay with him or not. Driss accepts the challenge and moves to the mansion, changing the boring life of Phillipe and his employees.—Claudio Carvalho, Rio de Janeiro, Brazil</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Cinema</th>
+            <th scope="col">Adult</th>
+            <th scope="col">Kid</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">12:00</th>
+            <td>Kinoplexx Sary Arka</td>
+            <td>1 200 ₸</td>
+            <td>800 ₸</td>
+            <th><button type="button" class="btn btn-warning"onclick="window.location.href='tickets.html'">Buy</button></th>
+          </tr>
+          <tr>
+            <th scope="row">15:00</th>
+            <td>Kinopark 5 Atakent</td>
+            <td>1 500 ₸</td>
+            <td>1 000 ₸</td>
+            <th><button type="button" class="btn btn-warning"onclick="window.location.href='tickets.html'">Buy</button></th>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Kinopark 4 Globus</td>
+            <td>1 500 ₸</td>
+            <td>1 000 ₸</td>
+            <th><button type="button" class="btn btn-warning"onclick="window.location.href='tickets.html'">Buy</button></th>
+          </tr>
+        </tbody>
+      </table>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+
+        var vid = '<iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/34WIbmXkewU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>'
+        $(".leftimg").click(function(){
+       $(".leftimg").hide();
+       $(".description").prepend("<br>");
+       $(".description").prepend(vid);
+      });
+  $('.video-responsive').css({
+	'overflow' : 'hidden',
+	'padding-bottom' : '56.25%',
+	'position' : 'relative',
+	'height' : '0'
+});
+
+$('.video-responsive iframe').css({
+	'left' : '0',
+	'top' : '0',
+	'height' : '100%',
+	'width' : '100%',
+	'position' : 'absolute'
+});
+ 
+
+        </script>
+      <script src= "script.js" charset = "utf-8"></script>
+  </body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" type="image/x-icon" href="/media/logo.png">
+    <body>
+        <button onclick="afterText()">Insert after</button>
+       <script>
+          
+           function afterText() {
+        // var one = $("<b></b>").text("love "); 
+        // var scnd =$("<b></b>").text("sometnig "); 
+        // var third =document.createElement("b");
+        var txt1 = "<b>I </b>";           // Create element with HTML
+  var txt2 = $("<b></b>").text("love ");  // Create with jQuery
+  var txt3 = document.createElement("b");   // Create with DOM
+  txt3.innerHTML = "jQuery!";
+ document.write(txt1, txt2, txt3); 
+        // document.write(one, scnd, third); 
+    }
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </body>
+    
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>

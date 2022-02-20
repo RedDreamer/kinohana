@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var x = document.createElement("IFRAME");
+    x.setAttribute("src", );
+    document.body.appendChild(x);
+}
+</script>
+  <script>
+    var video = document.createElement('video');
+
+video.src = ;
+document.write('video')
+
+  </script>
+  </head>
+  <body>
+  
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  
+  <ol>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+  </ol>
+  
+  <button id="btn1">Append text</button>
+  <button id="btn2">Append list item</button>
+  
+  
+<h2>My Phonebook</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">1+1</a></li>
+  <li><a href="#">Gentelmen</a></li>
+  <li><a href="#">Inception</a></li>
+  <li><a href="#">Coco</a></li>
+  <li><a href="#">The Lord of the Rings: The Fellowship of the Ring</a></li>
+  <li><a href="#">Pirates of the Caribbean: The Curse of the Black Pearl</a></li>
+  <li><a href="#">The Prestige</a></li>
+  <li><a href="#">Shrek</a></li>
+  <li><a href="#">Spider-Man: No Way Home</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+document.write('<link rel="icon" type="image/x-icon" href="/media/logo.png">');
+document.write('  <div class="form">');
+document.write('    <form class="register-form">');
+document.write('      <input id="create-username" type="text" placeholder="username"/>');
+document.write('      <input id="create-password" type="text" placeholder="password"/>');
+document.write('      <input id="create-email" type="text" placeholder="email address"/>');
+document.write('      <button name="create-button" type="button" id="create-button">create</button>');
+document.write('      <p class="message">Already registered? <a href="#">Sign In</a></p>');
+document.write('    </form>');
+document.write('    <form class="login-form">');
+document.write('      <input id="login-username" type="text" placeholder="username" name="login-username"/>');
+document.write('      <input id="login-password" type="text" placeholder="password" name="login-password"/>');
+document.write('      <button name="login-button" type="button" id="login-button">login</button>');
+document.write('      <p class="message">Not registered? <a href="#">Create an account</a></p>');
+document.write('    </form>');
+document.write('  </div>');
+document.write('</div>');
+
+
+</script>
+
+</body>
+</html>

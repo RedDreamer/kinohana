@@ -1,0 +1,132 @@
+
+.lefting{
+    margin-left: 20px;
+    margin-left: 420pt;
+    
+}                            
+.btn{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+}
+  .abt{
+    margin-left: 1vmax;
+  }
+ 
+  .objects{
+    margin: 1%;
+}
+.card{
+    margin: 1%;
+}
+.title{
+    display: flex;
+    margin-left: 30%;
+
+}
+.title img{
+    width: 13%;
+    display: inline;
+}
+.title h1{
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.carousel{
+  padding-left: 10%;
+  margin: auto;
+  width: 50%; 
+}
+table {
+  padding: auto;
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 25% ;
+}
+/*Line (Screen)*/
+.line{
+    display:block;
+    width: 1000px;
+    height:50px;
+    border-radius:50%;
+    border-top:1px solid rgb(0, 0, 0);
+    margin-left: 250px;
+}
+
+/*Checkbox*/
+input[type=checkbox][id^=scale-] {
+    display: none;
+  }
+  .button {
+    padding: 15px 30px;
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 8px;
+  }
+  input[type=checkbox][id^=scale-]:checked + .button,
+  .button:hover,
+  .button:active,
+  .button:visited {
+    cursor: pointer;
+    background: black;
+  }
+
+  
+  /*Buttons*/
+  .btn-scale-0,
+  .btn-scale-1,
+  .btn-scale-2,
+  .btn-scale-3, 
+  .btn-scale-4,
+  .btn-scale-5,
+  .btn-scale-6,
+  .btn-scale-7, 
+  .btn-scale-10,
+  .btn-scale-11,
+  .btn-scale-12,
+  .btn-scale-13, 
+  .btn-scale-14,
+  .btn-scale-15,
+  .btn-scale-16,
+  .btn-scale-17, 
+  .btn-scale-20,
+  .btn-scale-21,
+  .btn-scale-22,
+  .btn-scale-23, 
+  .btn-scale-24,
+  .btn-scale-25,
+  .btn-scale-26,
+  .btn-scale-27,
+  .btn-scale-30,
+  .btn-scale-31,
+  .btn-scale-32,
+  .btn-scale-33, 
+  .btn-scale-34,
+  .btn-scale-35,
+  .btn-scale-36,
+  .btn-scale-37, 
+  .btn-scale-40,
+  .btn-scale-41,
+  .btn-scale-42,
+  .btn-scale-43, 
+  .btn-scale-44,
+  .btn-scale-45,
+  .btn-scale-46,
+  .btn-scale-47  {
+    background-color: #FE0200;
+    color: white;
+    text-shadow: 1px 1px 3px #8e8e8e;
+    margin-left: 10px;
+  }
+  html {
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    color: #666666;
+    text-align: center;
+  } 
